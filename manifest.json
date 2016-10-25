@@ -1,0 +1,10 @@
+{
+  "name" : "T Rex",
+  "short_description" : "Jump through the obstacles and score !",
+  "category" : "games",
+  "sub_category" : "arcade",
+  "version" : "0.1",
+  "author" : "Subin Siby",
+  "author_page" : "http://subinsb.com",
+  "app_page" : "http://subinsb.com"
+}
