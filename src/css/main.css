@@ -12,11 +12,12 @@
 #local, #online{
   display: inline-block;
   vertical-align: top;
-  width: 342px;
+  width: 336px;
   margin-right: 4px;
 }
 #local{
   border-right: 2px dashed #000;
+  padding-right: 6px;
 }
 #online{
   text-align: right;
@@ -31,5 +32,7 @@
   #local, #online{
     display: block;
     width: 100%;
+    text-align: left;
+    border: none;
   }
 }
