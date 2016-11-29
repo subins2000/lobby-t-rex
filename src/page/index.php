@@ -8,11 +8,7 @@ $this->addStyle("main.css");
   <div id="highscores">
     <div id="local">
       <h2>Your Scores</h2>
-      <div class="scores">
-        <?php
-        echo $this->inc("src/ar/scores.php");
-        ?>
-      </div>
+      <div class="scores"></div>
     </div>
     <div id="online">
       <h2>Leaderboard</h2>

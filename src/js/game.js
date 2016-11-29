@@ -9,11 +9,17 @@ $.extend(lobby.app, {
 
     // Start the game
     new Runner("#game");
+
+    this.loadScores();
   },
 
   loadScores: function(){
     this.ar("scores", {"type": "local"}, function(scores){
       $("#highscores #local .scores").html(scores);
+    });
+
+    this.ar("scores", {"type": "online"}, function(scores){
+      $("#highscores #online .scores").html(scores);
     });
   },
 
