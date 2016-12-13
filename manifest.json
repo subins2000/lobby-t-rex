@@ -3,7 +3,7 @@
   "short_description" : "Navigate your T-Rex through the obstacles and score !",
   "category" : "games",
   "sub_category" : "arcade",
-  "version" : "0.1",
+  "version" : "0.1.1",
   "require" : {
     "lobby" : ">=0.9.3"
   },
